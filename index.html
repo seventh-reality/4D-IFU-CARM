@@ -28,18 +28,6 @@
     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
 
     <style>
-      .header-images {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-      }
-
-      .header-images img {
-        height: 60px;
-        width: auto;
-      }
-
       img {
         padding-top: 4px;
         display: block;
@@ -91,9 +79,11 @@
   </head>
 
   <body>
-    <!-- Header Images Left & Right -->
-    <div class="header-images">
+    <div align="center">
       <img src="4D.png" alt="4D Logo" />
+    </div>
+
+    <div id="box">
       <img src="icons.png" alt="Icons Banner" />
     </div>
 
@@ -144,16 +134,15 @@
       </section>
     </div>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LK8RR7VENG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-LK8RR7VENG');
-    </script>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LK8RR7VENG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LK8RR7VENG');
+</script>
 
     <!-- Scripts -->
     <script src="script.js"></script>
