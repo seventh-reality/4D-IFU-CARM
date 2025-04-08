@@ -42,7 +42,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 0px;
+        padding: 0 20px;
+        margin-top: 10px;
       }
 
       .attributiontwo9 {
@@ -79,8 +80,10 @@
   </head>
 
   <body>
-    <div align="center">
-      <img src="4D.png" alt="4D Logo" />
+    <!-- Left & Right Aligned Logos -->
+    <div id="button">
+      <img src="4.png" alt="Left Logo" style="height: 40px;" />
+      <img src="iitname.png" alt="Right Logo" style="height: 40px;" />
     </div>
 
     <div id="box">
@@ -107,11 +110,6 @@
 
         <button slot="ar-button" id="ar-button">View in 4D</button>
 
-        <div id="button">
-          <img src="4.png" style="width: 70px; height: 40px;" />
-          <img src="iitname.png" style="width: 90px;" />
-        </div>
-
         <div id="ar-prompt">
           <img src="ar_hand_prompt.png" />
         </div>
@@ -134,15 +132,14 @@
       </section>
     </div>
 
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LK8RR7VENG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LK8RR7VENG');
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LK8RR7VENG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-LK8RR7VENG');
+    </script>
 
     <!-- Scripts -->
     <script src="script.js"></script>
