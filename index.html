@@ -75,17 +75,31 @@
         margin-top: -5px;
         font-size: 9px;
       }
+      .header-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.left-img {
+  width: auto;
+  height: 60px; /* Adjust height as needed */
+}
+
+.right-img {
+  width: auto;
+  height: 60px; /* Adjust height as needed */
+}
+
     </style>
   </head>
 
   <body>
-    <div align="center">
-      <img src="4D.png" alt="4D Logo" />
-    </div>
-
-    <div id="box">
-      <img src="icons.png" alt="Icons Banner" />
-    </div>
+    <div class="header-images">
+  <img src="4D.png" alt="4D Logo" class="left-img" />
+  <img src="icons.png" alt="Icons Banner" class="right-img" />
+   </div>
 
     <div id="carm">
       <!-- <model-viewer> HTML element -->
